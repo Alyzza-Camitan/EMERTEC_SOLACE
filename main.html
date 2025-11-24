@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solace - Dignity in Care</title>
+    
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Lucide Icons Script -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- === NAVIGATION === -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            
+            <!-- Brand Logo (Grouped for layout) -->
+            <div class="logo">
+                <img src="imgs/logo.png" width="50" height="50" alt="Solace Logo">
+                <a href="main.html" class="logo-text">Solace</a>
+            </div>
+
+            <!-- Desktop Links -->
+            <div class="nav-links">
+                <a href="main.html" class="nav-item active">Home</a>
+                <a href="#features" class="nav-item">Features</a>
+                <a href="#mission" class="nav-item">Our Mission</a>
+                <a href="#contact" class="nav-item">Contact</a>
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <!-- Mobile Button -->
+            <button class="mobile-toggle" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="main.html" class="mobile-link active">Home</a>
+            <a href="#features" class="mobile-link">Features</a>
+            <a href="#mission" class="mobile-link">Our Mission</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <div class="mobile-cta">
+                <a href="#" class="btn btn-primary full-width">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- === HERO SECTION === -->
+    <header class="hero">
+        <div class="container hero-container">
+            <!-- Text Content -->
+            <div class="hero-content">
+                <div class="badge">
+                    <i data-lucide="sparkles"></i>
+                    <span>Now available for early access</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="text-gradient">Care. Connection. Comfort. </span>
+                </h1>
+                <p class="hero-description">
+                    Solace is a comprehensive platform for hospice and palliative care that coordinates care teams, simplifies medication tracking, and helps families preserve precious memories—all while ensuring dignity and peace of mind.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary with-icon">
+                        Request Demo <i data-lucide="arrow-right"></i>
+                    </button>
+                    <button class="btn btn-outline with-icon">
+                        <i data-lucide="play-circle"></i> Watch Demo
+                    </button>
+                </div>
+                
+                <div class="trust-badges">
+                    <span>Trusted by</span>
+                    <div class="icons">
+                        <i data-lucide="shield-check"></i>
+                        <i data-lucide="activity"></i>
+                        <i data-lucide="heart-handshake"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="hero-image-wrapper">
+                <div class="hero-card">
+                    <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Comforting Care">
+                </div>
+                <div class="blob blob-blue"></div>
+                <div class="blob blob-green"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- === FEATURES SECTION === -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="overline">Holistic Care</span>
+                <h2>Everything Families Need, <br/>In One Place</h2>
+                <p>Solace removes the administrative burden from end-of-life care, allowing families to focus on what truly matters.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon icon-green">
+                        <i data-lucide="activity"></i>
+                    </div>
+                    <h3>Care Journal</h3>
+                    <p>Track medications, meals, and daily care activities in one simple timeline. No more messy bedside notebooks or forgotten tasks.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon icon-indigo">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Care Team Connection</h3>
+                    <p>Direct access to hospice nurses, doctors, and social workers with profiles, messaging, and one-tap emergency calls."</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon icon-indigo">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Legacy Vault</h3>
+                    <p>Preserve precious memories with video messages, voice notes, letters, and family recipes. Create lasting legacies for generations to come.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                 <div class="feature-card">
+                    <div class="feature-icon icon-indigo">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Family Circle</h3>
+                    <p>Share updates with extended family in one secure place. Stop repeating the same update to 20 different relatives.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                 <div class="feature-card">
+                    <div class="feature-icon icon-indigo">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Documents & ID</h3>
+                    <p>Store DNR orders, living wills, and insurance information securely. Find critical documents in seconds, not hours.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                     <div class="feature-icon icon-indigo">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>One-tap access to the hospice nurse on-call line. Help is always available when you need it most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === MISSION SECTION === -->
+    <section id="mission" class="mission-section">
+        <div class="container mission-container">
+            <div class="mission-content">
+                <h2>Focus on Connection, Not Coordination</h2>
+                <p>Solace acts as a gentle, invisible hand that handles the complex logistics of palliative care, freeing families to focus on comfort, dignity, and precious moments together.</p>
+                
+                <ul class="heart-list">
+                    <li>
+                        <i data-lucide="heart"></i>
+                        Reduce caregiver anxiety with organized care tracking
+                    </li>
+                    <li>
+                        <i data-lucide="heart"></i>
+                        Seamless communication between family and care teams
+                    </li>
+                    <li>
+                        <i data-lucide="heart"></i>
+                        Preserve memories that matter most
+                    </li>
+                    <li>
+                        <i data-lucide="heart"></i>
+                        Peace of mind with 24/7 access to support
+                    </li>
+                </ul>
+            </div>
+            <div class="mission-video">
+                <div class="video-card">
+                    <img src="imgs/hand-holding.jpg" alt="Hands holding">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === CONTACT SECTION === -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <span class="overline">Get in Touch</span>
+                <h2>We're Here for You</h2>
+                <p>Have questions about Solace or need help getting started? Our compassionate support team is ready to assist you.</p>
+                
+                <div class="contact-methods">
+                    <div class="method-item">
+                        <div class="method-icon">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div class="method-text">
+                            <h5>Email Us</h5>
+                            <p>support@solace.care</p>
+                        </div>
+                    </div>
+                    
+                    <div class="method-item">
+                        <div class="method-icon">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <div class="method-text">
+                            <h5>Call Us</h5>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="method-item">
+                        <div class="method-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="method-text">
+                            <h5>Visit Us</h5>
+                            <p>123 Lipa City, Batangas Philippines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <div class="contact-form-card">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-input" placeholder="Jane Doe">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-input" placeholder="jane@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-textarea" placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === FOOTER === -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-group">
+                        <span class="brand-name">Solace</span>
+                    </div>
+                    <p>Empowering families with dignity, clarity, and connection during life's most tender moments.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">For Clinics</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Crisis Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Solace Health Inc. All rights reserved.</p>
+                <div class="social-links">
+                    <i data-lucide="twitter"></i>
+                    <i data-lucide="linkedin"></i>
+                    <i data-lucide="instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to JS File -->
+    <script src="js/script.js"></script>
+</body>
+</html>
